@@ -542,6 +542,9 @@ h2{
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 4em;
 				}
+			.img{
+				height: 400px;
+			}
 
 		@media screen and (max-width: 1680px) {
 
@@ -2403,7 +2406,11 @@ h2{
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 88%;
+				height: 290px;
+			}
+			.col-6.col-12-medium.imp-medium .image.fit img{
+				height: 480px;
 			}
 
 /* List */
